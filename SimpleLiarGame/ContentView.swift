@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+var playerSize = 2
 
 struct CircleView: View {
     @State var imgName: String
@@ -19,9 +20,9 @@ struct CircleView: View {
 }
 
 struct ContentView: View {
-    @State private var playerSize = 2
     @State private var nightMode = true
     @State private var twitMode = false
+    @State var playerSize = 2
     
     var body: some View {
         NavigationView{
@@ -58,7 +59,7 @@ struct ContentView: View {
 }
 //                    // second row
 //                    Label("생활 속 이것저것", systemImage: "shippingbox.fill") .font(Font.headline.weight(.medium))
-//                        .labelStyle(.titleAndIcon).frame(maxWidth: .infinity, alignment: .topLeading).padding(EdgeInsets(top:5, leading: 30, bottom: 5, trailing: 0))
+//               .labelStyle(.titleAndIcon).frame(maxWidth: .infinity, alignment: .topLeading).padding(EdgeInsets(top:5, leading: 30, bottom: 5, trailing: 0))
 //                    ScrollView(.horizontal, showsIndicators: false) {
 //                        HStack(spacing: 15) {
 //                            CircleView(imgName: "pngEtcUtil")

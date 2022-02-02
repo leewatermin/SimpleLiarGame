@@ -8,7 +8,10 @@
 import SwiftUI
 
 @main
-struct SimpleLiarGameApp: App {
+struct LiarGameApp: App {
+    
+    @State var playerSize = 2
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
