@@ -10,7 +10,8 @@ import SwiftUI
 @main
 struct LiarGameApp: App {
     
-    @State var playerSize = 2
+    @State var playerSize = 3
+    @State var liarSize = 1
     
     var body: some Scene {
         WindowGroup {
