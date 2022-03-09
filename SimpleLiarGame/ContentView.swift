@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-var playerSize = 2
 
 struct CircleView: View {
     @State var imgName: String
